@@ -1,0 +1,131 @@
+.news_list li{
+	float: left;
+	margin-left: 30px;
+
+	&:first-child{
+		margin-left: 0;
+	}
+}
+
+.news_list li .news:first-child{
+	margin-top: 0;
+}
+
+.news{
+	background: #fff;
+	width: 100%;
+	padding: 35px 0 20px 0;
+	margin: 30px 0 0 0;
+
+	.title_wrap{
+		margin: 0 0 0 29px;
+
+		.title{
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+	}
+
+	.news_ico{
+		float: right;
+		margin: -5px 12px 0 0;
+		display: inline-block;
+		height: 43px;
+		width: 43px;
+		background: url(../img/img_sprite.png) no-repeat 0 -416px;
+
+		&.music{
+			background-position: -134px -416px;
+		}
+		&.photo{
+			background-position: -281px -416px;
+		}
+		&.quote{
+			background-position: -428px -409px;
+			height: 50px;
+		}
+		&.video {
+			background-position: -562px -417px;
+		}
+		&.weddings{
+			background-position: -726px -416px;
+		}
+		&.advertising{
+			background-position: -908px -416px;
+		}
+		&.personal{
+			background-position: -1065px -416px;
+		}
+
+	}
+
+	.news_ico + .clear + *{
+		margin-top: 25px;
+	}
+
+	.player{
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+		text-align: center;
+		padding: 9px 0px 9px 7px;
+	}
+
+	.text{
+		padding: 31px 31px;
+		.text_style;
+		border-bottom: 1px solid #e2e2e2;
+	}
+
+	.category{
+		margin: 19px 0 0 30px;
+	}
+
+	.about{
+		float: right;
+		margin: 20px 30px 0 0;
+	}
+
+	.quote_box{
+		font-family: "Raleway";
+		font-weight: 500;
+		font-size: 25px;
+		padding: 0 30px 34px;
+		line-height: 36px;
+		border-bottom: 1px solid #e6e6e6;
+
+		p{
+			font-size: 15px;
+			margin-top: 11px;
+		}
+	}
+
+	.video{
+		position: relative;
+
+		.play{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			height: 39px;
+			width: 68px;
+			margin: -21px 0 0 -34px;
+			background: url(../img/img_sprite.png) no-repeat -557px -262px;
+		}
+	}
+}
+
+/*start page 6*/
+.news.services{
+	.text{
+		padding-bottom: 10px;
+		border: 0;
+	}
+
+	.title{
+		float: left;
+		font-size: 20px;
+		.RalewayBold;
+		text-transform: uppercase;
+		margin: 7px 0 0 29px;
+	}
+}

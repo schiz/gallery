@@ -1,0 +1,50 @@
+/*start page 0_5_gallery_fullwidth*/
+
+.gallery_slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	.slides {
+		width: 9999px;
+		position: relative;
+		li {
+			float: left;
+		}
+	}
+	.slide_img {
+		width: 100%;
+	}
+	.prev, .next {
+		position: absolute;
+		top: 50%;
+		width: 27px;
+		height: 62px;
+		margin-top: -31px;
+		background: url(../img/img_sprite.png) no-repeat 0 -262px;
+		// font-family: bulletIcon;
+		opacity: 0.5;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.prev {
+		left: 45px;
+	}
+	.next {
+		right: 45px;
+		background-position: -211px -262px;
+	}
+	.number {
+		position: absolute;
+		right: 29px;
+		bottom: 29px;
+		font-family: "Raleway";
+		font-weight: 200;
+		font-size: 40px;
+		color: #fff;
+	}
+	.all_num { 
+		opacity: 0.2;
+		margin: 0 0 0 -15px;
+	}
+}

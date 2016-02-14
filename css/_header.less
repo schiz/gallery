@@ -1,0 +1,72 @@
+header{
+	background: #fff;
+	padding: 45px 2% 37px;
+	position: relative;
+	border-bottom: 1px solid #dfdfdf;
+}
+.logo {
+	background: url(../img/logo.png) no-repeat 0 50%;
+	height: 49px;
+	width: 377px;
+	float: left;
+}
+.buttons_nav {
+	float: right;
+	overflow: hidden;
+	a {
+		float: left;
+		height: 43px;
+		width: 43px;
+		margin-left: 10px;
+		background: url(../img/img_sprite.png) no-repeat;
+
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+	.settings {
+		background-position: -120px 0;
+	}
+}
+.main_nav {
+	float: right;
+	margin: 10px 37px 0 0;
+	overflow: hidden;
+	a {
+		float: left;
+		.RalewayMedium;
+		color: #9f9f9f;
+		font-size: 15px;
+		margin-left: 15px;
+		text-decoration: none;
+		&:first-child{
+			margin-left: 0;
+		}
+		&:hover {
+			color: #383838;
+		}
+	}
+	.active {
+		color: #383838;
+	}
+}
+.small_nav_wrap {
+	position: relative;
+}
+.nav_button {
+	display: block;
+	background: url(../img/collapse-arrow-white.png) no-repeat 96% 50%;
+	border: 0;
+	border-top: 1px solid #e5e5e5;
+	/*border-bottom: 1px solid #e5e5e5;*/
+	color: #9f9f9f;
+	display: none;
+	font-size: 14px;
+	height: 47px;
+	margin: 41px 0 0;
+	padding: 0px 6px 0px 18px;
+	font-family: "Raleway";
+	text-align: left;
+	line-height: 47px;
+	cursor: pointer;
+}

@@ -1,0 +1,74 @@
+/*start page 2_2_img_in_albuns_view*/
+
+.gallery_photo_view{
+	margin: 125px 2% 0;
+
+	.desription{
+		float: left;
+		width: 25%;
+		font-family: 'Myriad Pro';
+		font-weight: bold;
+		color: #d3d3d3;
+		
+		.number {
+			font-size: 25px;
+		}
+		.number_mobile {
+			display: none;
+		}
+		.cur_num {
+			color: #282828;
+		}
+	}
+
+	.title{
+		font-size: 80px;
+		color: #282828;
+		font-family: "Raleway";
+		font-weight: 800;
+		line-height: 66px;
+		text-transform: uppercase;
+		margin: 63px 0 0;
+	}
+
+	.description_text{
+		width: 170px;
+		margin: 29px 0 0;
+		.text_style;
+	}
+}
+
+.slides_wrap {
+	float: left;
+	position: relative;
+	margin: 7px 0 0 -60px;
+	&.slides_albums_wrap {
+		width: 58%;
+	}
+	.prev, .next {
+		position: absolute;
+		top: 251px;
+		height: 44px;
+		width: 18px;
+		background: url(../img/img_sprite.png) no-repeat -324px -262px;
+	}
+	.prev {
+		left: -57px;
+	}
+	.next {
+		right: -57px;
+		background-position: -428px -262px;
+	}
+	.name {
+		float: left;
+		margin-top: 30px;
+		font-family: "Raleway";
+		font-weight: 500;
+		font-size: 15px;
+		color: #282828;
+
+		span{
+			color: black;
+		}
+	}
+}

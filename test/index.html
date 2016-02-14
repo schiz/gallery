@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script type="text/javascript" src="jquery-1.11.0.js"></script>
+		<!-- // <script type="text/javascript" src="StackBlur.js"></script> -->
+        <script type="text/javascript" src="jquery.zclip.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.copy').zclip({
+                path:'ZeroClipboard.swf',
+                copy:function(){return window.location.href;}
+            });
+        });    
+        </script>
+    </head>
+    <body>
+    	<div id="wrap">
+        	<img id="kitten" src="1.jpg" />
+        </div>	
+        <canvas id="canvas" width="300" height="300"></canvas>
+        <br />
+        <input type="button" id="go" value="Blur the kitten!" />
+
+        <div class="clipboard">
+            <textarea id="text"></textarea>
+            <div class="copy" style="width: 100px; height: 50px; background-color: #000;"></div>
+        </div>
+    </body>
+</html>
