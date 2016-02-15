@@ -3,4 +3,4 @@
 * Front-end development of portfolio site
 * Stack: HTML5 / CSS3 / JavaScript j(Query) / Responsive markup
 
-![alt text](https://github.com/schiz/gallery/ishodnik.jpg "Gallery markup")
+![alt text](https://github.com/schiz/gallery/raw/master/ishodnik.jpg "Gallery markup")
